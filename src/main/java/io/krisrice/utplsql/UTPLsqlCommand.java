@@ -122,6 +122,7 @@ public class UTPLsqlCommand extends CommandListener implements IHelp, SQLCLServi
 				        // do it !
 						new TestRunner().addPathList(paths)
 						.addReporter(documentationReporter)
+					    .colorConsole(true)
 						.run(conn);
 						
 						
