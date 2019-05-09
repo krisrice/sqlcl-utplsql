@@ -1,0 +1,4 @@
+
+bin/.editorconfig
+target/*
+sqlcl.properties
